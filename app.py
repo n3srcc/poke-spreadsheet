@@ -2,8 +2,6 @@ import argparse
 import gspread
 from requests import get
 from datetime import datetime
-#from math import floor
-
 
 def poke_api(offset=None, limit=None):
     try:
